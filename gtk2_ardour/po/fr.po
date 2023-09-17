@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Ardour 6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-19 17:12+0100\n"
-"PO-Revision-Date: 2023-09-17 17:29+0200\n"
+"PO-Revision-Date: 2023-09-17 18:14+0200\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <>\n"
 "Language: fr\n"
@@ -6777,8 +6777,9 @@ msgid "Bounce to Trigger Slot:"
 msgstr ""
 
 #: editor_export_audio.cc:367 editor_ops.cc:4225
+#, fuzzy
 msgid "Bounce to Clip Library"
-msgstr ""
+msgstr "Bouncer dans la librairie de clips"
 
 #: editor_export_audio.cc:374
 msgid "Bounced Region will appear in the Source list"
@@ -6923,11 +6924,11 @@ msgstr "régler le tempo sur rampe"
 
 #: editor_markers.cc:1675
 msgid "unclamp tempo from previous"
-msgstr ""
+msgstr "déverrouiller le tempo depuis la précédente"
 
 #: editor_markers.cc:1675
 msgid "clamp tempo to previous"
-msgstr ""
+msgstr "verrouiller le tempo sur la précédente"
 
 #: editor_markers.cc:1696
 msgid "set tempo to ramp to next"
@@ -10038,8 +10039,9 @@ msgid "<b>Measured</b>"
 msgstr "<b>Mesuré</b>"
 
 #: loudness_dialog.cc:197
+#, fuzzy
 msgid "<b>Delta</b>"
-msgstr ""
+msgstr "<b>Delta</b>"
 
 #: loudness_dialog.cc:210
 msgid "Gain to normalize:"
@@ -11663,7 +11665,7 @@ msgstr ""
 
 #: mixer_ui.cc:4065
 msgid "Rename Scene"
-msgstr ""
+msgstr "Renommer la scène"
 
 #: mixer_ui.cc:4104
 msgid "Restore for selected tracks"
@@ -12500,7 +12502,7 @@ msgstr ""
 
 #: plugin_manager_ui.cc:111
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: plugin_manager_ui.cc:111
 msgid "Plugin Scan Result"
@@ -12660,11 +12662,12 @@ msgstr "Mis à jour"
 
 #: plugin_manager_ui.cc:372
 msgid "Incompatible"
-msgstr ""
+msgstr "Incompatible"
 
 #: plugin_manager_ui.cc:609
+#, fuzzy
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: plugin_manager_ui.cc:613
 msgid "Err"
@@ -14021,30 +14024,38 @@ msgid "Scan Time Out"
 msgstr "Temps Maxi de Scan"
 
 #: rc_option_editor.cc:1156
+#, fuzzy
 msgid "1 sec"
-msgstr ""
+msgstr "1 s"
 
 #: rc_option_editor.cc:1157
+#, fuzzy
 msgid "15 sec"
-msgstr ""
+msgstr "15 s"
 
 #: rc_option_editor.cc:1159
+#, fuzzy
 msgid "45 sec"
-msgstr ""
+msgstr "45 s"
 
 #: rc_option_editor.cc:1161
 msgid "1'30\""
-msgstr ""
+msgstr "1'30\""
 
 #: rc_option_editor.cc:1164
+#, fuzzy
 msgid ""
 "Specify the default timeout for plugin instantiation. Plugins that require more "
 "time to load will be ignored. A value of 0 disables the timeout."
 msgstr ""
+"Spécifie le délai d'attente par défaut pour l'instanciation des greffons. Les "
+"greffons qui nécessitent plus de temps pour se charger seront ignorés. La "
+"valeur 0 désactive le délai d'attente."
 
 #: rc_option_editor.cc:1173
+#, fuzzy
 msgid "Waveform Clip Level (dBFS)"
-msgstr ""
+msgstr "Niveau d'écrêtage de la forme d'onde (dBFS)"
 
 #: rc_option_editor.cc:1205
 msgid "Playback (seconds of buffering)"
@@ -14089,12 +14100,14 @@ msgid "LTC Output Port:"
 msgstr "Port de sortie LTC :"
 
 #: rc_option_editor.cc:1525
+#, fuzzy
 msgid "TriggerBoxes will be connected to this port when it is set."
-msgstr ""
+msgstr "Les \"TriggerBox\" seront connectés à ce port lorsqu'il est activé."
 
 #: rc_option_editor.cc:1527
+#, fuzzy
 msgid "Default trigger input:"
-msgstr ""
+msgstr "Entrée de déclenchement par défaut :"
 
 #: rc_option_editor.cc:1587
 msgid "Enable"
@@ -14206,12 +14219,13 @@ msgid "MIDI Outputs"
 msgstr "Sorties MIDI"
 
 #: rc_option_editor.cc:2066
+#, fuzzy
 msgid "No MIDI Input (capture) devices found."
-msgstr ""
+msgstr "Aucun périphérique d'entrée (capture) MIDI trouvé."
 
 #: rc_option_editor.cc:2067
 msgid "No MIDI Output (playback) devices found."
-msgstr ""
+msgstr "Aucun périphérique de sortie (lecture) MIDI trouvé."
 
 #: rc_option_editor.cc:2197
 msgid "Name (click twice to edit)"
@@ -14258,8 +14272,9 @@ msgid "General"
 msgstr "Général"
 
 #: rc_option_editor.cc:2379
+#, fuzzy
 msgid "Show Audio/MIDI Setup Window"
-msgstr ""
+msgstr "Afficher la fenêtre de réglages audio/MIDI"
 
 #: rc_option_editor.cc:2384
 msgid "Try to auto-launch audio/midi engine"
@@ -14272,8 +14287,9 @@ msgid ""
 msgstr ""
 
 #: rc_option_editor.cc:2392
+#, fuzzy
 msgid "Options|Editor Undo"
-msgstr ""
+msgstr "Annuler l'éditeur"
 
 #: rc_option_editor.cc:2399
 msgid "Verify removal of last capture"
@@ -14300,8 +14316,9 @@ msgid "Drag and drop import always copies files to session"
 msgstr "Lors d'un import, toujours copier les fichiers dans la session"
 
 #: rc_option_editor.cc:2444
+#, fuzzy
 msgid "Cache Folder for downloaded Freesound clips:"
-msgstr ""
+msgstr "Dossier cache pour le clips Freesound téléchargés :"
 
 #: rc_option_editor.cc:2454
 msgid "Save loudness analysis as image file after export"
@@ -14313,17 +14330,20 @@ msgstr "Enregistrer une image de la console après l'export"
 
 #: rc_option_editor.cc:2468
 msgid "New Version Check"
-msgstr ""
+msgstr "vérification de la nouvelle version"
 
 #: rc_option_editor.cc:2471
 msgid "Check for announcements at application start"
-msgstr ""
+msgstr "Vérifier les annonces au démarrage de l'application"
 
 #: rc_option_editor.cc:2475
+#, fuzzy
 msgid ""
 "An anonymous request is performed to query announcements by contacting\n"
 "%1"
 msgstr ""
+"Une demande anonyme est effectuée pour interroger les annonces en contactant\n"
+"%1"
 
 #: rc_option_editor.cc:2483
 msgid "GUI Lock"
@@ -14636,8 +14656,9 @@ msgid "Display Selection Clock"
 msgstr "Afficher l'horloge de sélection"
 
 #: rc_option_editor.cc:2894
+#, fuzzy
 msgid "Display Monitor Section Info"
-msgstr ""
+msgstr "Afficher la section info du moniteur"
 
 #: rc_option_editor.cc:2902
 msgid "Display Cue Rec/Play Controls"
@@ -14660,8 +14681,9 @@ msgid "Appearance/Size and Scale"
 msgstr "Apparence/Taille et échelle"
 
 #: rc_option_editor.cc:2935
+#, fuzzy
 msgid "User Interface Size and Scale"
-msgstr ""
+msgstr "Taille et echelle de l'interface utilisateur"
 
 #: rc_option_editor.cc:2943 rc_option_editor.cc:2944 rc_option_editor.cc:2945
 msgid "Appearance/Colors"
@@ -14960,12 +14982,14 @@ msgid "if either encloses the other"
 msgstr "si l'une contient les autres"
 
 #: rc_option_editor.cc:3227
+#, fuzzy
 msgid "if they have identical length, position and origin"
-msgstr ""
+msgstr "s'ils ont une longueur, une position et une origine identiques"
 
 #: rc_option_editor.cc:3228
+#, fuzzy
 msgid "if they have identical length, position and layer"
-msgstr ""
+msgstr "s'ils ont une longueur, une position et une couche identiques"
 
 #: rc_option_editor.cc:3235
 msgid "Layering model"
@@ -15004,8 +15028,9 @@ msgid "Clear the Region Selection"
 msgstr "Abandonner la sélection de région"
 
 #: rc_option_editor.cc:3266
+#, fuzzy
 msgid "Select the newly-created regions BEFORE the split point"
-msgstr ""
+msgstr "Sélectionner les régions nouvellement créées AVANT le point de séparation"
 
 #: rc_option_editor.cc:3267
 msgid "Select only the newly-created regions AFTER the split point"
@@ -15018,20 +15043,25 @@ msgid "Select the newly-created regions"
 msgstr "Sélectionner les régions nouvellement créées"
 
 #: rc_option_editor.cc:3270
+#, fuzzy
 msgid "unmodified regions in the existing selection"
-msgstr ""
+msgstr "régions non modifiées dans la sélection existante"
 
 #: rc_option_editor.cc:3271
+#, fuzzy
 msgid "existing selection and newly-created regions before the split"
-msgstr ""
+msgstr "sélection existante et régions nouvellement créées avant la séparation"
 
 #: rc_option_editor.cc:3272
+#, fuzzy
 msgid "existing selection and newly-created regions after the split"
-msgstr ""
+msgstr "sélection existante et régions nouvellement créées après la séparation"
 
 #: rc_option_editor.cc:3274
+#, fuzzy
 msgid "Preserve existing selection, and select newly-created regions"
 msgstr ""
+"Préserver la sélection existante et sélectionner les régions nouvellement créées"
 
 #: rc_option_editor.cc:3279
 msgid "General Snap options:"
@@ -15042,8 +15072,9 @@ msgid "Snap Threshold (pixels)"
 msgstr "Seuil de l'aimant (pixels)"
 
 #: rc_option_editor.cc:3294
+#, fuzzy
 msgid "Approximate Grid/Ruler granularity (pixels)"
-msgstr ""
+msgstr "Granularité approximative de la grille/règle (pixels)"
 
 #: rc_option_editor.cc:3304
 msgid "Show \"snapped cursor\""
@@ -15058,8 +15089,9 @@ msgid "Grid switches to alternate selection for Internal Edit tools"
 msgstr "La grille passe à une autre sélection pour les outils d’Édition Interne"
 
 #: rc_option_editor.cc:3328
+#, fuzzy
 msgid "Grid mode selection may change ruler visibility"
-msgstr ""
+msgstr "La sélection du mode grille peut modifier la visibilité de la règle"
 
 #: rc_option_editor.cc:3337
 msgid "Rulers automatically change to follow the Grid mode selection"
@@ -15152,15 +15184,17 @@ msgstr ""
 
 #: rc_option_editor.cc:3446
 msgid "legal characters for MIDI note names|ABCDEFG#1234567890"
-msgstr ""
+msgstr "ABCDEFG#1234567890"
 
 #: rc_option_editor.cc:3448
+#, fuzzy
 msgid "Default lower visible MIDI note"
-msgstr ""
+msgstr "Note MIDI inférieure visible par défaut"
 
 #: rc_option_editor.cc:3453
+#, fuzzy
 msgid "Default upper visible MIDI note"
-msgstr ""
+msgstr "Note MIDI superieure visible par défaut"
 
 #: rc_option_editor.cc:3462
 msgid "MIDI Port Options"
@@ -16176,7 +16210,7 @@ msgstr "Activer l'analyse automatique de l'audio"
 #: rc_option_editor.cc:4703 rc_option_editor.cc:4705 rc_option_editor.cc:4707
 #: rc_option_editor.cc:4716 rc_option_editor.cc:4725 rc_option_editor.cc:4739
 msgid "Performance"
-msgstr ""
+msgstr "Performance"
 
 #: rc_option_editor.cc:4559
 msgid "DSP CPU Utilization"
@@ -17198,7 +17232,7 @@ msgstr "Partager avec..."
 
 #: route_ui.cc:2648
 msgid "Steal from ..."
-msgstr ""
+msgstr "Copier depuis..."
 
 #: route_ui.cc:2649
 msgid "Advanced"
@@ -18186,8 +18220,9 @@ msgid "License:"
 msgstr "Licence :"
 
 #: sfdb_ui.cc:783
+#, fuzzy
 msgid "Any"
-msgstr ""
+msgstr "Tous"
 
 #: sfdb_ui.cc:784
 msgid "CC-BY"
@@ -18483,7 +18518,7 @@ msgstr "Couleur :"
 
 #: slot_properties_box.cc:151 slot_properties_box.cc:168 trigger_ui.cc:569
 msgid "Multi..."
-msgstr ""
+msgstr "Multi..."
 
 #: slot_properties_box.cc:157 slot_properties_box.cc:174 trigger_ui.cc:576
 #: trigger_ui.cc:748
@@ -18492,7 +18527,7 @@ msgstr "Chaîner à"
 
 #: slot_properties_box.cc:187
 msgid "Legato"
-msgstr ""
+msgstr "Legato"
 
 #: slot_properties_box.cc:190
 msgid "Isolate"
@@ -19829,8 +19864,9 @@ msgid "Quantization..."
 msgstr "Quantification..."
 
 #: trigger_ui.cc:537
+#, fuzzy
 msgid "Cue Isolate"
-msgstr ""
+msgstr "Isolater la Cue"
 
 #: trigger_ui.cc:681
 msgid "Trigger"
